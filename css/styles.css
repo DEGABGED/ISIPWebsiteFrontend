@@ -1,11 +1,40 @@
-
 body {
   padding-top: 50px;
+  overflow-x: hidden;
 }
 
 /* For the navbar-default thing */
 .navbar-default{
-  background-image:linear-gradient(to bottom, #f3520e 0px, #f36327 100%);
+  background-image:none;
+  color: #f4511e;
+}
+
+.navbar-default .navbar-nav > li > a{
+  color: #fff;
+}
+
+.navbar-default .navbar-nav .open a,
+.navbar-default .navbar-nav .open a:hover,
+.navbar-default .navbar-nav .open a:focus {
+  background-image: none;
+  background-color: #f3520e;
+  color: #fff;
+}
+
+.navbar-default .navbar-nav .dropdown .dropdown-menu a:hover,
+.navbar-default .navbar-nav .active a,
+.navbar-default .navbar-nav .active a:hover,
+.navbar-default .navbar-nav .active a:focus {
+  background-image: none;
+  background-color: #f3a888;
+}
+
+#myNavbar {
+  overflow: hidden;
+}
+
+.dropdown-menu {
+  background-color:#f3520e;
 }
 
 .navbar{
@@ -23,13 +52,22 @@ body {
 	background-color: #f4511e;
 }
 
-.navbar li a, .navbar .navbar-brand {
+.navbar .navbar-brand {
     color: #fff;
 }
 
-.navbar-nav li a:hover, .navbar-nav li.active a {
-    color: #f4511e;
-    background-color: #f3a888 !important;
+.navbar li a {
+  color: #555;
+}
+
+.navbar-default .navbar-nav li a:hover, .navbar-nav li.active a {
+    /*color: #f4511e;*/
+    background-color: #f3a888;
+}
+
+.navbar-default .navbar-nav .dropdown .dropdown-toggle:hover {
+  background-color: #f3520e;
+  color: #fff;
 }
 
 .navbar-default .navbar-toggle {

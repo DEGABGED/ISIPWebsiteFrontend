@@ -19,8 +19,10 @@ $(document).ready(function(){
     window.location.hash = hash;
     });
   });
-})
 
+  // Add fancybox
+  $(".fancybox").fancybox();
+});
 
 $(window).scroll(function() {
   $(".slideanim").each(function(){

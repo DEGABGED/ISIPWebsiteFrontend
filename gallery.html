@@ -1,1 +1,187 @@
-<h1>ayy lmao</h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<title>ISIP!</title>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- Bootstrap -->
+<link rel="stylesheet" type="text/css" href="css/bootstrap.css"/>
+<link rel="stylesheet" type="text/css" href="css/bootstrap-theme.css"/>
+
+<!-- Custom -->
+<link rel="stylesheet" type="text/css" href="css/styles.css"/>
+<link href="css/thumbnail-gallery.css" rel="stylesheet">
+
+<!-- JQuery and Bootstrap JS -->
+<script src="js/jquery-2.2.0.js"></script>
+<script src="js/bootstrap.js"></script>
+
+<!-- Fancybox -->
+<link rel="stylesheet" href="fancybox/source/jquery.fancybox.css" type="text/css" media="screen" />
+<script type="text/javascript" src="fancybox/source/jquery.fancybox.pack.js"></script>
+
+<link rel="stylesheet" href="fancybox/source/helpers/jquery.fancybox-buttons.css" type="text/css" media="screen" />
+<script type="text/javascript" src="fancybox/source/helpers/jquery.fancybox-buttons.js"></script>
+<script type="text/javascript" src="fancybox/source/helpers/jquery.fancybox-media.js"></script>
+
+<link rel="stylesheet" href="fancybox/source/helpers/jquery.fancybox-thumbs.css" type="text/css" media="screen" />
+<script type="text/javascript" src="fancybox/source/helpers/jquery.fancybox-thumbs.js"></script>
+
+<!-- Custom JS -->
+<script src="js/engine.js"></script>
+
+<style>
+/* because font-size: vw and css in gen. is giving me problems */
+@media screen and (max-width: 1280px) {
+  #page-title {
+    font-size: 100px;
+  }
+}
+@media screen and (max-width: 768px) {
+  #page-title {
+    font-size: 75px;
+    letter-spacing: 20px;
+  }
+}
+@media screen and (max-width: 652px) {
+  #page-title {
+    font-size: 60px;
+    letter-spacing: 15px;
+  }
+}
+@media screen and (max-width: 545px) {
+  #page-title {
+    font-size: 45px;
+    letter-spacing: 15px;
+  }
+}
+</style>
+</head>
+
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60"> 
+
+<!-- Nav bar-->
+<nav class="navbar navbar-fixed-top navbar-default">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#">ISIP</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#home">Home</a></li>
+        <li><a href="#about">About us</a></li>
+        <li><a href="#accomplishments">Accomplishments</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#contact">Contact us</a></li>
+        <li class="dropdown">
+        <a class="dropdown-toggle" data-toggle="dropdown" href="#">Programs<span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li><a href="#">Accomplished</a></li>
+          <li><a href="#">Current</a></li>
+          <li><a href="#">Future Projects</a></li>
+          <li class="divider"></li>
+          <li><a href="#">Services</a></li>
+        </ul>
+        </li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="container-fluid text-center bg-orange std-pads">
+  <h1 id="page-title" class="big"> GALLERY </h1>
+  <div class="container normal-space">
+    See our pictures and crap
+    <br />
+    The picture zoom works only for the first and last pictures since I'd just
+    have to copypaste it otherwise anyway.
+  </div>
+</div>
+
+<!-- Page Content -->
+<div class="container">
+  <div class="row">
+
+    <br />
+    <br />
+
+    <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+      <a class="fancybox thumbnail" rel="group" href="http://placehold.it/400x300.png">
+        <img class="img-responsive" src="http://placehold.it/400x300" alt="">
+      </a>
+    </div>
+    <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+      <a class="thumbnail" href="#">
+        <img class="img-responsive" src="http://placehold.it/400x300" alt="">
+      </a>
+    </div>
+    <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+      <a class="thumbnail" href="#">
+        <img class="img-responsive" src="http://placehold.it/400x300" alt="">
+      </a>
+    </div>
+    <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+      <a class="thumbnail" href="#">
+        <img class="img-responsive" src="http://placehold.it/400x300" alt="">
+      </a>
+    </div>
+    <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+      <a class="thumbnail" href="#">
+        <img class="img-responsive" src="http://placehold.it/400x300" alt="">
+      </a>
+    </div>
+    <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+      <a class="thumbnail" href="#">
+        <img class="img-responsive" src="http://placehold.it/400x300" alt="">
+      </a>
+    </div>
+    <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+      <a class="thumbnail" href="#">
+        <img class="img-responsive" src="http://placehold.it/400x300" alt="">
+      </a>
+    </div>
+    <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+      <a class="thumbnail" href="#">
+        <img class="img-responsive" src="http://placehold.it/400x300" alt="">
+      </a>
+    </div>
+    <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+      <a class="thumbnail" href="#">
+        <img class="img-responsive" src="http://placehold.it/400x300" alt="">
+      </a>
+    </div>
+    <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+      <a class="thumbnail" href="#">
+        <img class="img-responsive" src="http://placehold.it/400x300" alt="">
+      </a>
+    </div>
+    <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+      <a class="thumbnail" href="#">
+        <img class="img-responsive" src="http://placehold.it/400x300" alt="">
+      </a>
+    </div>
+    <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+      <a class="fancybox thumbnail" rel="group" href="http://placehold.it/400x300.png">
+        <img class="img-responsive" src="http://placehold.it/400x300" alt="">
+      </a>
+    </div>
+  </div>
+  <hr>
+</div>
+
+<script type="text/javascript">
+</script>
+</body>
+</html>
