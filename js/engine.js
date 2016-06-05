@@ -21,7 +21,7 @@ $(document).ready(function(){
   });
 
   // Add fancybox
-  $(".fancybox").fancybox();
+  // $(".fancybox").fancybox();
 });
 
 $(window).scroll(function() {
