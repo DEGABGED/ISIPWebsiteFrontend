@@ -234,9 +234,11 @@ p{
 	font-size:16px !important;
 }
 
+/* Removed the !important for the isip font-size, since it needs to change in
+ * mobile */
 .isip{
 	letter-spacing:20px !important;
-	font-size:200px !important;
+	font-size:200px;
 	background: #f4511e !important;
 	color: #ffffff !important;
 }

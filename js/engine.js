@@ -1,4 +1,4 @@
-
+/*
 $(document).ready(function(){
   // Add smooth scrolling to all links in navbar + footer link
   $(".navbar a, footer a[href='#myPage']").on('click', function(event) {
@@ -23,7 +23,7 @@ $(document).ready(function(){
   // Add fancybox
   // $(".fancybox").fancybox();
 });
-
+*/
 $(window).scroll(function() {
   $(".slideanim").each(function(){
     var pos = $(this).offset().top;
